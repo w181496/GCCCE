@@ -1,0 +1,19 @@
+#panel {
+	background-color:#fff;
+	padding:25px 75px;
+	margin:25px;
+	border-radius: 15px;
+}
+
+#gotop {
+	border-radius: 10px;
+   	 display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;    
+	padding: 10px 15px;    
+	font-size: 20px;
+	background: #777;
+	color: white;
+	cursor: pointer;
+}
