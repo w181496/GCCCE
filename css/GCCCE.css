@@ -32,6 +32,9 @@ body {
 	src: url( ../noto-sans-regular.otf);
 }
 
+p {
+	font-size:17px;
+}
 .navigation {
 	margin:0; 
 	padding:0;
