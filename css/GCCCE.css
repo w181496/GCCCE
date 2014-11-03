@@ -24,12 +24,13 @@
 
 body {
 	background-color:#bbd4ef;
+	font-family: NotoSansCJKtc-Regular;
 }
 /* 整體設置*/ 
 
 @font-face {
-	font-family: Noto-sans-regular;
-	src: url( ../noto-sans-regular.otf);
+	font-family: NotoSansCJKtc-Regular;
+	src: url( ../NotoSansCJKtc-Regular.otf);
 }
 
 p {
@@ -39,7 +40,7 @@ p {
 	margin:0; 
 	padding:0;
 	min-height: 34px;
-	font-family: Noto Sans;
+	font-family: NotoSansCJKtc-Regular;
 	display: block;
 }
  
