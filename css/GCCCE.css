@@ -23,9 +23,22 @@
 }
 
 body {
+background-color:#bbd4ef;
+background-image: linear-gradient(rgba(255,255,255,.3) 2px, transparent 2px),
+linear-gradient(90deg, rgba(255,255,255,.3) 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+/*
+body {
 	background-color:#bbd4ef;
 	font-family: NotoSansCJKtc-Regular;
 }
+*/
+
 /* 整體設置*/ 
 
 @font-face {
@@ -84,6 +97,7 @@ p {
     color:#333;
     text-decoration:none;
 }
+
  
 /* 設置子選單dd */
 .navigation li dd { 
