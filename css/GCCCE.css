@@ -3,6 +3,12 @@
 	padding:25px 75px;
 	margin:15px 0px;
 	border-radius: 15px;
+	box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+img#banner {
+	box-shadow: 4px 2px 4px 1px rgba(0, 0, 0, 0.15);
+	border-radius: 2px;
 }
 
 #gotop {
@@ -75,8 +81,13 @@ p {
 	padding:0;
 	background-color:#fff;
 	border:solid 2px #666; 
+	border-radius: 4px;
 }
  
+.navigation li dl dt{ 
+	border-radius: 4px;
+}
+
 .navigation li dt a , .navigation li dd a{ display:block;}
  
  
@@ -97,7 +108,6 @@ p {
     color:#333;
     text-decoration:none;
 }
-
  
 /* 設置子選單dd */
 .navigation li dd { 
@@ -120,7 +130,9 @@ p {
 	padding:4px 5px 4px 20px;
 }
  
- 
+  .navigation  li dd a:hover{
+  	background-color: rgba(193, 230, 234, 1);
+} 
 /*隱藏子選單*/
 .navigation dl li { display:none;}
  
