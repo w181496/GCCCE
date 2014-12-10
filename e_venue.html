@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GCCCE2015 Venue</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/pace.css">
+<link rel="stylesheet" href="css/GCCCE.css">
+<script src="js/pace.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script> 
+    $(function(){
+      $("#nav").load("e_nav.html"); 
+    });
+</script> 
+</head>
+ 
+<body>
+<div id="container">
+	<div class="container">
+		<div id="nav"></div>
+<div id="panel">
+	 <h3 id="map01"><strong>National Taiwan University of Science and Technology</strong></h3>
+                <p>Address：10607台北市大安區基隆路四段43號</p>
+                <a href="https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@25.013068,121.541652,17z/data=!3m1!4b1!4m2!3m1!1s0x3442aa2176c4c0ad:0x90db5e44ee29f455?hl=zh-TW">
+                    <img src="./img/map1.png">
+                </a><br>
+            <br>
+            <h3 id="map02"><strong>National Taiwan Normal University, 202 Conference Hall, General Building</strong></h3>
+                <p>Address：106台北市大安區和平東路一段129號 國立台灣師範大學圖書館校區</p>
+                <a href="https://www.google.com.tw/maps/place/106%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E5%92%8C%E5%B9%B3%E6%9D%B1%E8%B7%AF%E4%B8%80%E6%AE%B5129%E8%99%9F%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%B8%AB%E7%AF%84%E5%A4%A7%E5%AD%B8%E5%9C%96%E6%9B%B8%E9%A4%A8%E6%A0%A1%E5%8D%80%E8%87%BA%E7%81%A3%E5%B8%AB%E7%AF%84%E5%A4%A7%E5%AD%B8/@25.026732,121.528263,17z/data=!3m1!4b1!4m2!3m1!1s0x3442a98500ffc0c3:0x5420281855035ab0?hl=zh-TW">
+                    <img src="./img/map2.png">
+                </a><br>
+            <br>
+            <h3 id="map03"><strong>National Central University</strong></h3>
+                <p>Address：桃園縣中壢市中大路300號</p>
+                <a href="https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%B8/@24.969481,121.192516,17z/data=!3m1!4b1!4m2!3m1!1s0x346823c1ec904dcb:0xcdc129d4455ce456?hl=zh-TW">
+                    <img src="./img/map3.png">
+                </a><br>
+</div>
+</div>
+
+<!-- go to the top -->
+<div id="gotop">
+	<i class="glyphicon glyphicon-chevron-up paddingfix">
+	</i>
+</div>
+<script type="text/javascript">
+$(function(){
+	$("#gotop").click(function(){
+		jQuery("html,body").animate({
+			scrollTop:0
+		},1000);
+	});
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 300){
+			$('#gotop').fadeIn("fast");
+		} else {
+			$('#gotop').stop().fadeOut("fast");
+		}
+	});
+});
+</script>
+</body>
+</html>

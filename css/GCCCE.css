@@ -28,16 +28,6 @@ img#banner {
 	font-size: 20px;
 }
 
-body {
-background-color:#bbd4ef;
-background-image: linear-gradient(rgba(255,255,255,.3) 2px, transparent 2px),
-linear-gradient(90deg, rgba(255,255,255,.3) 2px, transparent 2px),
-linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
-linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
-background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
-background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
-}
-
 /*
 body {
 	background-color:#bbd4ef;
@@ -50,6 +40,17 @@ body {
 @font-face {
 	font-family: NotoSansCJKtc-Regular;
 	src: url( ../NotoSansCJKtc-Regular.otf);
+}
+
+body {
+	background-color:#bbd4ef;
+	background-image: linear-gradient(rgba(255,255,255,.3) 2px, transparent 2px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 2px, transparent 2px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	font-family: NotoSansCJKtc-Regular;
 }
 
 p {
