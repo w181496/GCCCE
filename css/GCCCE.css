@@ -28,6 +28,20 @@ img#banner {
 	font-size: 20px;
 }
 
+#organ-span {
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+#organ-img {
+	border-radius: 1px solid #B3C9CF;
+	box-shadow: -2px 2px 2px #000;
+	width : 68px;
+	height: 75px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 /*
 body {
 	background-color:#bbd4ef;

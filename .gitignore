@@ -16,6 +16,8 @@
 
 *.jpg
 *.png
+*.jpeg
+*.tiff
 
 *.7z
 *.gz
